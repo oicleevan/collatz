@@ -1,6 +1,6 @@
-##Javascript
+#Javascript
 Node js is needed.
-##Running
+#Running
 Use the command:
 
 `node collatz.js {number you want to run for}`
