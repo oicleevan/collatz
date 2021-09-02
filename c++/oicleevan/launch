@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Reminder to make the program if it hasn't been made already!"
+echo
+
+echo "What number would you like to run the calculator through?"
+read number
+
+echo "Ok, running with with $number..."
+echo
+
+./collatz $number
