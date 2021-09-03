@@ -12,15 +12,14 @@ def collatz(number):
             number = (number * 3) + 1
         else:
             number /= 2
-        list.append(number)
+        nums.append(number)
 
 for arg in sys.argv:
     n = int(sys.argv[1])
 
-list = [n]
+nums = [n]
 
 print(f"Calculating the collatz conjecture from the number {n}...")
 collatz(n) # calculates
 
-print("The results are in: ", end="")
-print(f"{list}")
+print(f"The results are in: {nums}")
