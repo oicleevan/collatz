@@ -7,19 +7,19 @@
 import sys
 
 def collatz(number):
+    terms = [number]
     while(number > 1):
         if(number % 2):
             number = (number * 3) + 1
         else:
             number /= 2
-        nums.append(number)
+        terms.append(number)
+    return terms;
 
 for arg in sys.argv:
     n = int(sys.argv[1])
 
-nums = [n]
-
 print(f"Calculating the collatz conjecture from the number {n}...")
-collatz(n) # calculates
+nums = collatz(n) # calculates
 
 print(f"The results are in: {nums}")

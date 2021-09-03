@@ -9,11 +9,11 @@
 
 using std::cout;
 using std::endl;
+using std::vector;
 
-std::vector<long> numbers;
-
-void collatz(int number)
+vector<long> collatz(int number)
 {
+    vector<long> terms = {number};
     while (number > 1)
     {
         if(number % 2)
@@ -22,8 +22,10 @@ void collatz(int number)
         } else {
             number /= 2;
         }
-        numbers.push_back(number);
+        terms.push_back(number);
     }
+
+    return terms;
 }
 
 int main(int argc, char* argv[])
@@ -39,11 +41,10 @@ int main(int argc, char* argv[])
     }
     
     cout << "Calculating the collatz conjecture with " << n << "..." << endl;
+    
+    vector<long> numbers = collatz(n);
 
-    numbers.push_back(n);
-    collatz(n);
-
-    cout << "The results are in: [";
+    cout << "\nThe results are in: [";
 
     for(const long& i : numbers)
     {

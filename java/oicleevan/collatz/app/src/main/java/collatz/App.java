@@ -9,10 +9,26 @@ package collatz;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class App {
+public class App { 
+    
+    static ArrayList<Integer> calculate(int num) {
+        ArrayList<Integer> terms = new ArrayList<>();
+        terms.add(num);
+
+        while (num > 1) {
+            if(num % 2 == 1) {
+                num = (num * 3) + 1;
+            } else {
+                num /= 2;
+            }
+            terms.add(num);
+        }
+
+        return terms;
+    }
+    
     public static void main(String[] args) {
         int n;
-        ArrayList<Integer> numbers = new ArrayList<>();
 
         if(args.length > 0) {
             n = Integer.valueOf(args[0]);
@@ -24,20 +40,10 @@ public class App {
 
             in.close();
         }
-        numbers.add(n);
 
-        System.out.println("Running the calculator with the number " + n + "...");
+        System.out.println("\nRunning the calculator with the number " + n + "...");
+        ArrayList<Integer> numbers = calculate(n);
 
-        while (n > 1) {
-            if(n % 2 == 1) {
-                n = (n * 3) + 1;
-            } else {
-                n /= 2;
-            }
-            numbers.add(n);
-        }
-        
-        System.out.println("The numbers are in: " + numbers);
-        
+        System.out.println("\nThe numbers are in: " + numbers);
     }
 }
