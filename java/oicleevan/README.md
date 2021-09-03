@@ -4,13 +4,14 @@ calculating the collatz conjecture in Java
 
 ## requirements
 
-Java -> I use openjdk-11, whatever else works, cool!
-Gradle (building) -> I use ubuntu, and build 7.1.1
+**Java** -> I use openjdk-11, whatever else works, cool!
+
+**Gradle (building)** -> I use ubuntu, and build 7.1.1
 
 ## building and running
 
 ### Building:
-    
+
 I have provided a bash script to automate building, `./build`.
 
 If you want to manually build:
