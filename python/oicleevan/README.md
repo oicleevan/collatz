@@ -8,4 +8,4 @@ If you're on Linux or Mac, run the `launch` bash script. It will ask for a numbe
 
 Alternatively or for Windows users, type `python3 collatz.py {number you want to be run for}`. The program will fail if a number is not specified!
 
-### -- oicleevan
+**-- [oicleevan](https://oicleevan.github.io/)**

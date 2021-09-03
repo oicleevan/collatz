@@ -28,4 +28,4 @@ If you want to manually run:
     cd collatz/app/bin/main/
     java collatz.App {number you want to run} # the software will prompt for a number if you do not provide a number in the command line arguments
 
-## -- oicleevan
+**-- [oicleevan](https://oicleevan.github.io/)**

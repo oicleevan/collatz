@@ -12,4 +12,4 @@ If you're on Windows, you need a third party compiler, and you need to manually 
 
 You can launch it with `.\{name of file} {number you want to calculate}`. If a number is not specified, the program will ask you for one during runtime.
 
-### -- oicleevan
+**-- [oicleevan](https://oicleevan.github.io/)**
