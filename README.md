@@ -1,5 +1,9 @@
 # collatz
-A calculator for the collatz conjecture, in various!
+A calculator for the collatz conjecture, in various languages!
+
+## purpose
+
+A learning method and exercise, to help understand and demonstrate the differences between and functionality of a variety of languages, and an opportunity to collaborate.
 
 ## submitting
 
