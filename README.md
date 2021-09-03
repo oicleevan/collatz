@@ -3,7 +3,7 @@ A calculator for the collatz conjecture, in various!
 
 ## submitting
 
-ideal conditions for the software:
+ideal conditions for the program:
 
 - it should provide the option to manually take input from command line, as well as optionally in the program itself.
 - it ideally would add data to an array/list, and then prints that list to the terminal/window.
