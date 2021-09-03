@@ -30,12 +30,12 @@ int main(int argc, char* argv[])
 {    
     long n;
 
-    if(argc > 2)
+    if(argc >= 2)
     {
-        cout << "Please input a number at runtime to run this program." << endl;
-        return 1;
-    } else {
         n = strtol(argv[1], NULL, 10);
+    } else {
+        cout << "Please enter a number to run the calculator with: ";
+        std::cin >> n;
     }
     
     cout << "Calculating the collatz conjecture with " << n << "..." << endl;
