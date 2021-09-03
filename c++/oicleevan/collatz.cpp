@@ -20,7 +20,7 @@ void collatz(int number)
         {
             number = (number * 3) + 1;
         } else {
-            number = number / 2;
+            number /= 2;
         }
         numbers.push_back(number);
     }
@@ -30,12 +30,12 @@ int main(int argc, char* argv[])
 {    
     long n;
 
-    if(argc < 2)
+    if(argc > 2)
     {
-        cout << "Please input a number at runtime to run this program." << endl;
-        return 1; 
-    } else {
         n = strtol(argv[1], NULL, 10);
+    } else {
+        cout << "Please input a number at runtime to run this program." << endl;
+        return 1;
     }
     
     cout << "Calculating the collatz conjecture with " << n << "..." << endl;

@@ -1,6 +1,7 @@
 """
     collatz.py
     Calculates the collatz conjecture for a number provided at runtime. For github/oicleevan/collatz.
+    -- oicleevan
 """
 
 import sys
@@ -10,9 +11,8 @@ def collatz(number):
         if(number % 2):
             number = (number * 3) + 1
         else:
-            number = number // 2
-        n = number
-        list.append(n)
+            number /= 2
+        list.append(number)
 
 for arg in sys.argv:
     n = int(sys.argv[1])

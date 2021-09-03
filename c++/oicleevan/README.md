@@ -1,12 +1,10 @@
 # c++
 
-Still a work in progress of sorts.
-
 ## running
 
 If you're on Linux or Mac, first make the software with `make`, then run the `launch` bash script. It will ask for a number that you would like to run for, and then launch the collatz software.  
 
-Alternatively, you could launch the software manually, with `./collatz {number you want to calculate`.
+Alternatively, you could launch the software manually, with `./collatz {number you want to calculate}`.
 
 ### windows
 
