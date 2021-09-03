@@ -5,30 +5,30 @@
 */
 
 #include <iostream>
+#include <vector>
 
 using std::cout;
 using std::endl;
 
+std::vector<long> numbers;
+
 void collatz(int number)
 {
-    cout << "[";
     while (number > 1)
     {
-        cout << number << ", ";
         if(number % 2)
         {
             number = (number * 3) + 1;
         } else {
             number = number / 2;
         }
+        numbers.push_back(number);
     }
-
-    cout << number << "]" << endl;
 }
 
 int main(int argc, char* argv[])
 {    
-    long n = NULL;
+    long n;
 
     if(argc < 2)
     {
@@ -40,8 +40,16 @@ int main(int argc, char* argv[])
     
     cout << "Calculating the collatz conjecture with " << n << "..." << endl;
 
+    numbers.push_back(n);
     collatz(n);
-}
 
-/* to do: figure out dynamically sized array/vector and do it like python instead of my hacky solution here.
-im new to this stuff!!!! */
+    cout << "The results are in: [";
+
+    for(const long& i : numbers)
+    {
+        if(i != 1) { cout << i << ", "; }
+        else { cout << i << "]" << endl; }
+    }
+
+    return 0;
+}
