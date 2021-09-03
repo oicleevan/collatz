@@ -4,7 +4,6 @@
     -- oicleevan
 */
 
-
 package collatz;
 
 import java.util.ArrayList;
