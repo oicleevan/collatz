@@ -1,3 +1,9 @@
+/*
+    collatz.cpp
+    Calculates the collatz conjecture for a user-provided number.
+    -- oicleevan
+*/
+
 #include <iostream>
 
 using std::cout;
@@ -22,7 +28,7 @@ void collatz(int number)
 
 int main(int argc, char* argv[])
 {    
-    long n;
+    long n = NULL;
 
     if(argc < 2)
     {

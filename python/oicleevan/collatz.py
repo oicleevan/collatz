@@ -1,3 +1,8 @@
+"""
+    collatz.py
+    Calculates the collatz conjecture for a number provided at runtime. For github/oicleevan/collatz.
+"""
+
 import sys
 
 def collatz(number):
