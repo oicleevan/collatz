@@ -32,10 +32,10 @@ int main(int argc, char* argv[])
 
     if(argc > 2)
     {
-        n = strtol(argv[1], NULL, 10);
-    } else {
         cout << "Please input a number at runtime to run this program." << endl;
         return 1;
+    } else {
+        n = strtol(argv[1], NULL, 10);
     }
     
     cout << "Calculating the collatz conjecture with " << n << "..." << endl;
