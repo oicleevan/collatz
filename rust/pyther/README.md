@@ -1,5 +1,5 @@
 # Rust
 Rust is needed.
 
-#Running
+## Running
 Use the command: `cargo run -- <number>`
