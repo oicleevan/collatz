@@ -1,7 +1,7 @@
 # collatz
 A calculator for the collatz conjecture, in various!
 
-## submittiing
+## submitting
 
 ideal conditions for the software:
 
