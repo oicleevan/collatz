@@ -17,6 +17,8 @@ Please include a README describing how to build, run, or generally use the progr
 
 **I'm writing it in the languages I know, try yours!**
 
+Even if someone else has already done a program in a language you know, you are still free to do it in that language, as long as there isn't any plagiarism involved.
+
 Please do your work in a subdirectory with your username, etc. `Java/oicleevan`. Feel free to submit a pull request!
 
 **-- [oicleevan](https://oicleevan.github.io/)**
