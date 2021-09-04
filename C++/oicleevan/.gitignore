@@ -1,2 +1,1 @@
-collatz
-# hides executable from git
+bin/

@@ -2,9 +2,7 @@
 
 ## running
 
-If you're on Linux or Mac, first make the software with `make`, then run the `launch` bash script. It will ask for a number that you would like to run for, and then launch the collatz software.  
-
-Alternatively, you could launch the software manually, with `./collatz {number you want to calculate}`. If a number is not specified, the program will ask you for one during runtime.
+If you're on Linux or Mac, first make the software with `make`. You can then launch the software with `./collatz {number you want to calculate}`. If a number is not specified, the program will ask you for one during runtime.
 
 ### windows
 

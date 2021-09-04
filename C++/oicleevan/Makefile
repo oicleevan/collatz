@@ -1,5 +1,5 @@
 make:
-	c++ collatz.cpp -o collatz
+	c++ collatz.cpp -o bin/collatz
 
 clean:
-	rm collatz
+	rm -r bin/
