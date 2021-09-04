@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo "What number do you want to run through the calculator?"
-read number
-
-echo "Running the calculator with $number..."
-echo
-
-python3 collatz.py $number

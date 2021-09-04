@@ -4,8 +4,6 @@ Python 3 must be installed!
 
 ## running
 
-If you're on Linux or Mac, run the `launch` bash script. It will ask for a number that you would like to run for, and then launch the collatz.py script.  
-
-Alternatively or for Windows users, type `python3 collatz.py {number you want to be run for}`. The program will fail if a number is not specified!
+To run this program, type `python3 collatz.py {number to be run for}`. If a number is not provided, the program will fail!
 
 **-- [oicleevan](https://oicleevan.github.io/)**
