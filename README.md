@@ -15,6 +15,6 @@ ideal conditions for the program:
 
 **I'm writing it in the languages I know, try yours!**
 
-My only ask is that you include your username in a subfolder under the language you are writing in. It helps for identification and ensuring the repo stays clean.
+Please do your work in a subdirectory with your username, etc. `java/oicleevan`. Feel free to submit a pull request!
 
 **-- [oicleevan](https://oicleevan.github.io/)**
