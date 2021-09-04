@@ -1,0 +1,20 @@
+<project>
+    <target name="clean">
+        <delete dir="classes"/>
+    </target>
+
+    <target name="compile" depends="clean">
+        <mkdir dir="classes"/>
+        <javac srcdir="src" destdir="classes"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="bin"/>
+        <jar destfile="bin/Collatz.jar" basedir="classes">
+            <manifest>
+                <attribute name="Main-Class" 
+                    value="me.oicleevan.collatz.Collatz"/>
+            </manifest>
+        </jar>
+    </target>
+</project>

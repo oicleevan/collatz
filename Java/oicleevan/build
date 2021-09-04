@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "Building the software..."
-
-cd collatz/
-./gradlew build

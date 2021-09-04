@@ -1,15 +1,15 @@
 /*
-    App.java (collatz java)
+    collatz.java (collatz java)
     Calculates the collatz conjecture for a given number (in java!!!)
     -- oicleevan
 */
 
-package collatz;
+package me.oicleevan.collatz;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class App { 
+public class Collatz { 
     
     static ArrayList<Integer> calculate(int num) {
         ArrayList<Integer> terms = new ArrayList<>();

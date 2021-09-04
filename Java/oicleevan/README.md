@@ -4,28 +4,14 @@ calculating the collatz conjecture in Java
 
 ## requirements
 
-**Java** -> I use openjdk-11, whatever else works, cool!
+**Java** -> I use openjdk-11.
 
-**Gradle (building)** -> I use build 7.1.1 with an Ubuntu PPA
+**Ant** -> Tested with build 1.10.9 on Ubuntu.
 
 ## building and running
 
-### Building:
+To build an executable jar, type `ant jar`. This command will build a .jar in `bin/`.
 
-I have provided a bash script to automate building, `./build`.
-
-If you want to manually build:
-
-    cd collatz
-    ./gradlew build
-
-### Running:
-
-There's also a script to automate running. It asks for a number, and automatically runs the java class. `./launch`
-
-If you want to manually run:
-
-    cd collatz/app/bin/main/
-    java collatz.App {number you want to run} # the software will prompt for a number if you do not provide a number in the command line arguments
+To run, you can then execute the .jar using `java -jar Collatz.jar {number you are to run for}`. If there is not a number included at launch, the program will ask for one during runtime. 
 
 **-- [oicleevan](https://oicleevan.github.io/)**
