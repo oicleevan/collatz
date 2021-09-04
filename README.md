@@ -1,5 +1,5 @@
 # collatz
-A calculator for the collatz conjecture, in various languages!
+A calculator for the collatz conjecture/hailstone sequence, in various languages!
 
 ## purpose
 
@@ -15,6 +15,6 @@ ideal conditions for the program:
 
 **I'm writing it in the languages I know, try yours!**
 
-Please do your work in a subdirectory with your username, etc. `java/oicleevan`. Feel free to submit a pull request!
+Please do your work in a subdirectory with your username, etc. `Java/oicleevan`. Feel free to submit a pull request!
 
 **-- [oicleevan](https://oicleevan.github.io/)**

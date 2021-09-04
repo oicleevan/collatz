@@ -6,7 +6,7 @@ calculating the collatz conjecture in Java
 
 **Java** -> I use openjdk-11, whatever else works, cool!
 
-**Gradle (building)** -> I use ubuntu, and build 7.1.1
+**Gradle (building)** -> I use build 7.1.1 with an Ubuntu PPA
 
 ## building and running
 
