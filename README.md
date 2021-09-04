@@ -13,6 +13,8 @@ ideal conditions for the program:
 - it ideally would add data to an array/list, and then prints that list to the terminal/window.
 - for sake of portability, a separate function for calculation would be nice (for sake of portability).
 
+Please include a README describing how to build, run, or generally use the program! Thanks!
+
 **I'm writing it in the languages I know, try yours!**
 
 Please do your work in a subdirectory with your username, etc. `Java/oicleevan`. Feel free to submit a pull request!
