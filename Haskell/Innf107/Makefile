@@ -1,2 +1,2 @@
 collatz:
-	ghc src/Main.hs -o collatz -no-keep-hi-files -no-keep-o-files
+	ghc -O2 src/Main.hs -o collatz -no-keep-hi-files -no-keep-o-files
