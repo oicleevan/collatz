@@ -15,6 +15,8 @@ ideal conditions for the program:
 
 Please include a README describing how to build, run, or generally use the program! Thanks!
 
+*All programs are released under the MIT License, unless you include a different `LICENSE` file in your program's directory.* 
+
 **I'm writing it in the languages I know, try yours!**
 
 Even if someone else has already done a program in a language you know, you are still free to do it in that language, as long as there isn't any plagiarism involved.

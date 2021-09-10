@@ -13,7 +13,8 @@ using std::vector;
 
 vector<long> collatz(int number)
 {
-    vector<long> terms = {number};
+    vector<long> terms;
+    terms.push_back(number);
     while (number > 1)
     {
         if(number % 2)
