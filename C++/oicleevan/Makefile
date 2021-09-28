@@ -11,7 +11,7 @@ make: compile link
 
 compile:
 	mkdir -p ${BUILDDIR}
-	${CC} ${SRCDIR}/collatz.cpp ${BUILDDIR}/collatz.o
+	${CC} ${SRCDIR}/collatz.cpp ${BUILDDIR}/collatz.o ${CCFLAGS}
 	
 link:
 	mkdir -p ${BINDIR}
