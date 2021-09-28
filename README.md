@@ -12,6 +12,7 @@ ideal conditions for the program:
 - it should provide the option to manually take input from command line, as well as optionally in the program itself.
 - it ideally would add data to an array/list, and then prints that list to the terminal/window.
 - for sake of portability, a separate function for calculation would be nice (for sake of portability).
+- please **do not include a binary!** it bloats the repository, and programs should be compiled in the users environment.
 
 Please include a README describing how to build, run, or generally use the program! Thanks!
 
