@@ -7,8 +7,7 @@ BINDIR := bin
 
 TARGET := ${BINDIR}/collatz
 
-make:
-	c++ ${SRCDIR}/collatz.cpp -o ${TARGET}
+make: compile link
 
 compile:
 	mkdir -p ${BUILDDIR}
