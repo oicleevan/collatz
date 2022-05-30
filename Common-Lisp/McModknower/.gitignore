@@ -1,0 +1,4 @@
+# backup files from emacs
+*~
+# The main binary
+/collatz
